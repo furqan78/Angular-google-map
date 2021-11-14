@@ -1,0 +1,74 @@
+p{
+    margin: 5px;
+    padding: 0;
+    font-weight: 400;
+    color: black;
+}
+
+.lastpara{
+    margin-left: 5px;
+}
+
+agm-map{
+    height: 400px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+.card{
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+.center img{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    height: 200px;
+    width: 300px;
+    margin: 20px 0px;
+}
+
+h4,h6,h1{
+    font-weight: 400;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2{
+    margin-top: 80px;
+}
+
+.container1{
+    margin-top: 10px;
+}
+
+strong{
+    font-weight: 700;
+    color: #000;
+}
+
+#infowindow{
+    background-color: red;
+}
+
+.data2{
+    margin-top: 10px;
+}
+
+.locationLogo{
+    width: 35px;
+    height: 25px;
+    margin-left: 30px;
+}

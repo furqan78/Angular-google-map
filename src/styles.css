@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+.gm-style .gm-style-iw {
+
+    width: 100%;
+    max-width: 220px !important;
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 3px;
+    margin-left: 140px;
+    margin-top: 120px;
+
+}
+
+.arrow_div{
+    display: none;
+}
+
+/* for removing arror of info window */
+.gm-style .gm-style-iw-t::after {
+    background: none;
+    box-shadow:none;
+}
+
+/* for removing cross btn from infoWindow */
+.gm-ui-hover-effect {
+    display: none !important;
+}
